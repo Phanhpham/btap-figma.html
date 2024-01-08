@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+body{
+    font-size: 14px;
+    font-family: Eudoxus Sans;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    width: 100%;
+    height:120px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid #f3f3f3;
+}
+
+.logo{
+    display: flex;
+    width: 130px;
+    height: 42px;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo .material-symbols-outlined{
+    position: relative;
+    top: 0;
+}
+
+.header-right .material-symbols-outlined{
+    position: relative;
+    top: 0;
+}
+
+.button .material-symbols-outlined{
+    position: relative;
+    top: 0;
+}
+.header-center {
+    line-height: 32.4;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    gap: 60px;
+    color: #151411;
+}
+
+.header-center a:hover{
+    color: #518581;
+}
+.p{
+    text-align: center;
+    padding-top: 80px;
+}
+
+.vanban{
+    position:relative;
+    left:30px;
+}
+
+.vanban{
+    position:relative;
+    bottom:400px;
+    left:150px;
+    font-size: 30px;
+}
+
+.anh{
+    height: 600px;
+}
+
+.anh img{
+    width: 100%;
+    height: 600px;
+}
+
+.button{
+   display:flex;
+   justify-content: space-between;
+   padding:30px;
+   position:relative;
+   bottom:500px;  
+}
+.vanban button{
+    background-color: #518581;
+    height:30px;
+    width:80px;
+}
+
+.cham{
+    height:10px;
+    display:flex;
+    justify-content: center;
+}
+.icon{
+    display:flex;
+    gap:10px;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    bottom:240px;
+}
+
+
+
+.navbar{
+    padding-left: 100px;
+}
+.timkiem{
+    padding-top: 50px;
+}
+
+.gap-search{
+    display:flex;
+    gap:30px;
+}
+
+.border{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+form{
+    width: 73.57%;
+    height: 84px;
+    border: 1px solid #000000;
+}
+
+input{
+    position: relative;
+    bottom: 0.5px;
+    outline: none;
+    border: none;
+}
+
+.border .icon{
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+
+.icon .material-symbols-outlined{
+    position: relative;
+    top: 0;
+}
+
+.border .find{
+    position: relative;
+    top: 15px;
+    right: 15px;
+}
+
+.find{
+    width: 138px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+}
+
+.find input{
+    width: 138px;
+    height: 54px;
+    background-color: #518581;
+    border: transparent;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.Filter {
+    display: flex;
+    width: 190px;
+    height: 84px;
+    border: 1px solid #000000;
+    align-items: center;
+}
+
+.Filter span{
+    display: flex;
+    gap: 12px;
+    position: relative;
+    left: 40px;
+}
+
+.Filter .material-symbols-outlined{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0;
+}
+
+.Filter span:last-child{
+    font-size: 18px;
+    font-family: 500;
+    line-height: 32px;
+}
+
+
+.material-symbols-outlined {
+}
+
+.total-product{
+    padding-top: 50px;
+}
+
+.gap-product{
+    display: flex;
+    justify-content: space-between;
+}
+
+.border1{
+    width: 356px;
+    height: 57px;
+    display: flex;
+    gap: 10px;
+}
+
+.border1 span{
+    font-size: 30px;
+    font-weight: 700px;
+    line-height: 57px;
+    color: #151411;
+}
+
+.button button{
+    width: 60px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: #F9F9F9;
+    border: transparent;
+    position: relative;
+    top: 20px;
+    bottom: 0;
+    color: #518581;
+}
+
+
+
+.sortby{
+    width: 139px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    justify-content: center;
+    margin-right: 90px;
+    border: 1.5px solid #F9F9F9;
+}
+
+.sortby .material-symbols-outlined{
+    position: relative;
+    top: 0;
+}
+.list{
+    padding-top: 50px;
+}
+
+.list img{
+    width: 320px;
+    height: 320px;
+}
+
+.width-menu{
+    width: 1240px;
+}
+
+.gap-menu{
+    display: flex;
+    gap: 29px;
+}
+
+.list b{
+    position: relative;
+    top: 12px;
+}
+
+.list .p1{
+    position: relative;
+    top: 10px;
+}
+
+.list p{
+    font-size: 18px;
+}
+
+
+
+
+.info .b1{
+    font-size: 24px;
+}
+
+.info .b2{
+    font-size: 22px;
+    position: relative;
+    top: 20px;
+}
+
+
+.next-page {
+    padding-top: 50px;
+}
+.gap-next-page {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.arrow-left {
+    color: #AFADB5;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon .material-symbols-outlined {
+    width: 32px;
+    height: 32px;
+}
+.center{
+    width: 200px;
+    height: 42px;
+}
+
+.center .material-symbols-outlined{
+    
+}
+.number button{
+    width: 38px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    font-size: 18px;
+    background-color: #F9F9F9;
+    border: 0.5px;
+}
+
+.number {
+    
+}
+
+.arrow-right {
+}
+
+.center button:first-child{
+    background-color: #518581;
+    color: #FFFFFF;
+}
+
+.line{
+    border-bottom: 1.5px solid #ECE4DE;
+    width: 1018px;
+    padding-top: 100px;
+}
+
+
+
+.footer{
+    padding-left: 100px;
+}
+
+.width-footer {
+    width: 1120px;
+    height: 290px;
+    padding-left: 100px;
+}
+.gap-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 70px;
+    
+}
+
+.footer-left{
+    position: relative;
+    bottom: 30px;
+}
+
+.footer-left b{
+    font-size: 20px;
+}
+
+.footer-left p{
+    position: relative;
+    top: 20px;
+}
+
+.material-symbols-outlined {
+    position:relative;
+    top: 245px;
+}
+
+.footer-left .material-symbols-outlined{
+    position: relative;
+    top: 0;
+}
+
+.footer-right .table{
+    width: 370px;
+    height: 210px;
+}
+
+h4{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+td{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
